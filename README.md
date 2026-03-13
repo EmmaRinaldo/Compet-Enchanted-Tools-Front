@@ -3,7 +3,7 @@
 ### 1. Documentation technique
 
 - **Technologie principale**: `Next.js` (App Router) avec React et TypeScript  
-- **Gestion de styles**: Tailwind CSS (ou système de design **défini** dans le projet)  
+- **Gestion de styles**: Tailwind CSS (ou système de design défini dans le projet)  
 - **Routing**: dossier `app/` (par exemple `app/reward`, `app/parcours`, `app/module/[slug]`)  
 - **Appels API**: communication avec l’API du back `Compet-Enchanted-Tools-Back` (endpoints à préciser selon l’implémentation)  
 - **Authentification**: gérée côté front via les endpoints d’authentification du back (token JWT / session – dépend de ton implémentation réelle, à décrire ici)  

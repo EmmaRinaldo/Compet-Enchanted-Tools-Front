@@ -36,7 +36,7 @@ export default function RewardPage() {
       {/* Fond image */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <Image
-          src="/bg-default.svg"
+          src="/bg-rewards.svg"
           alt=""
           fill
           className="object-cover"
