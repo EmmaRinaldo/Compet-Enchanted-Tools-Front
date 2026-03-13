@@ -5,6 +5,8 @@ import type { ModuleMock } from "@/data/modules.mock";
 import { MODULES_MOCK } from "@/data/modules.mock";
 import { fetchVisitorModules } from "@/lib/api/modules";
 
+export const dynamic = "force-dynamic";
+
 function buildSpiralModulesFromApi(
   apiModules: import("@/lib/api/modules").ModuleFromApi[],
 ): ModuleMock[] {
