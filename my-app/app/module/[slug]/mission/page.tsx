@@ -77,8 +77,8 @@ export default async function MissionPage({ params }: PageProps) {
               {moduleData.robotPart && (
                 <span className="uppercase text-[#FCFCFC]">
                   {moduleData.robotPart === "torso" && "CORPS"}
-                  {moduleData.robotPart === "leftArm" && "BRAS-GAUCHE"}
-                  {moduleData.robotPart === "rightArm" && "BRAS-DROIT"}
+                  {moduleData.robotPart === "leftarm" && "BRAS-GAUCHE"}
+                  {moduleData.robotPart === "rightarm" && "BRAS-DROIT"}
                   {moduleData.robotPart === "head" && "TÊTE"}
                   {moduleData.robotPart === "legs" && "PENDULE"}
                 </span>
